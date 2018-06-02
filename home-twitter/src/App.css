@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  
+  overflow: hidden;  
+}
+
+.map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+  text-align: center;
+  border: rgb(39, 26, 13) 30px solid;
+  border-radius: 8px;
+  position: relative;
+  z-index: 400;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.tweetBox{
+  position: relative;
+  background-color: #ee7125;
+  text-align: left;
+  font-size: 11pt;
+  border: #ee7125 solid;
+  border-radius: 0px;
+  color: white;
+  padding: 0px;
+  max-width: 300px;
+
+
+}
+
+.tweetBoxDockLeft{
+  text-align: left;
+}
+
+.tweetBoxDockRight{
+  text-align: right;
+}
+
+.infoBox{
+  background-color: chartreuse;
+  border: 2px solid;
+}
+
+.App img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 500;
+}
+
+.homeImage{
+}
+
+.google_map_infobox{
+  background-color: navy
+}
+
+.gm-style-iw{
+
+  position: relative;
+  background-color: #ee7125;
+  /* border: rgb(39, 26, 13) 20px solid; */
+  border-radius: 8px;
+  box-shadow:  1px 1px 10px 10px rgb(39, 26, 13);
+
+  outline: 12px solid rgb(39, 26, 13);
+  outline-offset: 0px;
+  
+
+}
